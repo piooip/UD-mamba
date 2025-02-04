@@ -34,7 +34,7 @@ python setup.py install
 ## Usage
 Train Mamba-UNet
 ```shell
-python train_fully_supervised_2D_UD-Mamba.py --root_path ../data/ACDC --exp ACDC/VIM --model mambaunet --max_iterations 10000 --batch_size 24  --num_classes 4 
+python train_fully_supervised_2D_UD-Mamba.py --root_path ../data/ACDC --exp ACDC/VIM --model mambaunet --max_iterations 30000 --batch_size 24  --num_classes 4 
 ```
 
 ## Acknowledgement
